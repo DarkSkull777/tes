@@ -41,7 +41,7 @@ function count_files($dir) {
 // Jika tombol "Mulai" di-klik
 if (isset($_POST['start'])) {
     $target_date = '2024-09-12'; // Tanggal yang ingin dicari file yang diubah
-    $root_dir = '/var/www/edos/assets/';   // Direktori yang ingin diperiksa
+    $root_dir = '/home/msc2022/public_html/';   // Direktori yang ingin diperiksa
 
     // Dapatkan total file untuk progres bar
     $total_files = count_files($root_dir);
